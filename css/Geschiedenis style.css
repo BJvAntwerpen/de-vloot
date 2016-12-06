@@ -1,0 +1,74 @@
+.top-menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("grfx/bg.png");
+	background-repeat: repeat-x;
+}
+
+.centerTop {
+	background: url("grfx/header.jpg") no-repeat;
+	height: 272px;
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 12px;
+	left: 12px;
+	padding: 4px 0 0 22px;
+}
+
+li, a {
+	display: inline;
+	font: 12px verdana, sans-serif;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: 70px;
+	right: 8px;
+	padding: 12px;
+}
+
+li, a:hover {
+	color: #66ffff;
+}
+
+.line {
+	line-height: 1px;
+}
+
+p {
+	font: 15px verdana, sans-serif;
+	line-height: 19px;
+	letter-spacing: 1px;
+}
+
+h1, h2 {
+	font: 25px verdana, sans-serif;
+	font-weight: bold;
+}
+
+.centerWhite {
+	width: 760px;
+	height: 500px;
+	margin: -41px auto 0;
+	background: white;
+	padding: 20px;
+}
+
+.top-left {
+	float: left;
+	margin: 0 16px 35px 0;
+}
+
+.center-right {
+	float: right;
+	margin: 10px 0 20px 40px;
+}
+
+.bottom-left {
+	float: left;
+	margin: 10px 10px 0 0;
+}
